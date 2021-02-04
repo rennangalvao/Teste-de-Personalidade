@@ -1,0 +1,106 @@
+* { 
+    margin: 0;
+    padding: 0;
+ }
+
+ body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, Sans-serif;
+    background: #e6e6e6;
+ }
+ .img {
+  
+  height: 450px;
+  background-size: cover;
+  border: 2px solid darkgray;
+  color: #000; text-shadow: 1px 1px 0 #fff;
+  margin: 20px 20px;
+  
+ }
+
+ /*
+ ***** Layout ****
+ */
+
+ #area-cabecalho {
+    background-color: #f7b600;
+    padding: 10px;
+    text-align: center;
+ }
+
+ #area-logo, #area-menu {
+    padding: 5px;
+ }
+
+
+ ul {
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+
+ }
+
+ ul li {
+    float: right;
+ }
+
+li a {
+    display: block;
+    padding: 0 2em;
+    line-height: 3em;
+    text-decoration: none;
+    color: white;
+
+}
+
+/* Formatação Geral
+*****************
+*/
+
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+
+}
+
+h2 {
+    padding: 0px;
+    text-align: center;
+    font-size: 1.0em;
+
+}
+
+p {
+    font-size: 0.3em;
+    
+}
+
+.branco {
+    color: white;
+
+}
+
+#area-principal {
+    background: white;
+    width: 920px;
+    
+    margin: 0 auto;
+}
+#area-titulo {
+
+    margin: 20px;
+    text-align: center;
+}
+.area-secao {
+    margin: 10px;
+    margin-right: 1px;
+    font-size: 3.0em;
+}
+
+
+footer {
+    background: #e6e6e6;
+    text-align: center;
+    font-size: 1.0em;
+    padding: 10px;
+}

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Teste Vingador</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styleFront.css">
+    </head>
+    <body>
+    
+        <header id="area-cabecalho"> <!-- Inicio header -->
+            <div id="area_logo">
+            	<h1>Programação <span class="branco" >Avançada</span></h1>
+            </div>
+            
+            <nav id="area-menu"> <!--Inicio nav -->
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Contato</a></li>
+
+                </ul> 
+            </nav> <!--/fim nav -->
+        </header><!--/fim header -->
+            <div id=area-titulo>
+            <h2>Qual dos Vingadores é você?</h2>
+            </div>
+            	<div id="area-principal">
+                   <form id="formulario" method="post" action="./resposta">
+                   	<fieldset>
+                       <section class="area-secao">
+
+                           <p>
+                               1- Quem é você em uma festa de amigos?
+                           </p>
+
+                           <label class="radio">
+                               <input type="radio" name="questao1" value="a" /> A) A pessoa que controla a música e agita a festa.
+                           </label>   <br />
+                           <label class="radio">
+                               <input type="radio" name="questao1" value="b" /> B) Alguém entre os que estão dançando.
+                           </label>  <br />
+                           <label class="radio">
+                               <input type="radio" name="questao1" value="c" /> C) Está sempre perto da mesa de comida.
+                           </label>   <br />
+                           <label class="radio">
+                            <input type="radio" name="questao1" value="d" /> D) Está em casa, longe da festa.
+                           </label>
+
+                       </section>
+                       <section class="area-secao">
+
+                           <p>
+                               2- Em uma decisão difícil, com seus amigos, você:
+                           </p>
+
+                           <label class="radio">
+                               <input type="radio" name="questao2" value="a" /> A) Faz o que é certo, acima de tudo.
+                           </label>   <br />
+                           <label class="radio">
+                               <input type="radio" name="questao2" value="b" /> B) Decide em conjunto e faz o que todos acharem melhor.
+                           </label>  <br />
+                           <label class="radio">
+                               <input type="radio" name="questao2" value="c" /> C) Calcula as alternativas e mostra pra todo mundo onde há menos danos.
+                           </label>   <br />
+                           <label class="radio">
+                            <input type="radio" name="questao2" value="d" /> D) Espera alguém decidir e vai na onda.
+                           </label>
+
+                       </section>
+                       <section class="area-secao">
+
+                           <p>
+                               3- Sua maior habilidade no meio da crise:
+                           </p>
+
+                           <label class="radio">
+                               <input type="radio" name="questao3" value="a" /> A) Força.
+                           </label>   <br />
+                           <label class="radio">
+                               <input type="radio" name="questao3" value="b" /> B) Lealdade.
+                           </label>  <br />
+                           <label class="radio">
+                               <input type="radio" name="questao3" value="c" /> C) Pensamento lógico.
+                           </label>   <br />
+                           <label class="radio">
+                            <input type="radio" name="questao3" value="d" /> D) Abordagem criativa.
+                            </label>
+
+                       </section>
+                       <section class="area-secao">
+
+                           <p>
+                               4- Qual dessas frases se aplica mais a você?
+                           </p>
+
+                           <label class="radio">
+                               <input type="radio" name="questao4" value="a" /> A) "Se eu tivesse oito horas para derrubar uma árvore, passaria seis afiando meu machado" (Abraham Lincoln)
+                           </label>   <br />
+                           <label class="radio">
+                               <input type="radio" name="questao4" value="b" /> B) "Mil vidas eu tivesse, mil vidas eu daria pela libertação da minha pátria" (Tiradentes)
+                           </label>  <br />
+                           <label class="radio">
+                               <input type="radio" name="questao4" value="c" /> C) "Lutar pelo amor é bom, mas alcançá-lo sem luta é melhor." (William Shakespeare)
+                           </label>   <br />
+                           <label class="radio">
+                            <input type="radio" name="questao4" value="d" /> D) "O verdadeiro homem mede a sua força quando se defronta com o obstáculo." (Antoine de Saint-Exupéry)
+                            </label>
+
+                       </section>
+                       <section class="area-secao">
+
+                           <p>
+                               5- Como você faz para que os outros realizem uma tarefa?
+                           </p>
+
+                           <label class="radio">
+                               <input type="radio" name="questao5" value="a" /> A) Cria um passo a passo para a realização da tarefa.
+                           </label>   <br />
+                           <label class="radio">
+                               <input type="radio" name="questao5" value="b" /> B) Explica a tarefa e apresenta os motivos pelos quais deveriam fazer.
+                           </label>  <br />
+                           <label class="radio">
+                               <input type="radio" name="questao5" value="c" /> C) Dá ordem de forma bem firme e direta.
+                           </label>   <br />
+                           <label class="radio">
+                            <input type="radio" name="questao5" value="d" /> D) Faz primeiro e chama a seguirem o seu exemplo.
+                            </label>
+
+                       </section>
+                       <section class="area-secao">
+
+                           <p>
+                               6- Um colega seu está fazendo algo errado para prejudicar alguém. Você:
+                           </p>
+
+                           <label class="radio">
+                               <input type="radio" name="questao6" value="a" /> A) Monta um plano para expôr o que o colega está fazendo de errado.
+                           </label>   <br />
+                           <label class="radio">
+                               <input type="radio" name="questao6" value="b" /> B) Apronta algo para que ele se dê mal.
+                           </label>  <br />
+                           <label class="radio">
+                               <input type="radio" name="questao6" value="c" /> C) Conta para alguém que é autoridade sobre ele.
+                           </label>   <br />
+                           <label class="radio">
+                            <input type="radio" name="questao6" value="d" /> D) Confronta ele para tirar satisfações.
+                           </label>
+
+                       </section>
+                       <section class="area-secao">
+
+                           <p>
+                               7- Qual desses adjetivos as outras pessoas usariam pra te descrever melhor?
+                           </p>
+
+                           <label class="radio">
+                               <input type="radio" name="questao7" value="a" /> A) Forte.
+                           </label>   <br />
+                           <label class="radio">
+                               <input type="radio" name="questao7" value="b" /> B) Inteligente.
+                           </label>  <br />
+                           <label class="radio">
+                               <input type="radio" name="questao7" value="c" /> C) Sem medo.
+                           </label>   <br />
+                           <label class="radio">
+                            <input type="radio" name="questao7" value="d" /> D) Habilidoso/a.
+                           </label>
+
+                       </section>
+                       <section class="area-secao">
+
+                           <p>
+                               8- Com qual personagem dos Simpsons você mais se identifica?
+                           </p>
+
+                           <label class="radio">
+                               <input type="radio" name="questao8" value="a" /> A) Homer.
+                           </label>   <br />
+                           <label class="radio">
+                               <input type="radio" name="questao8" value="b" /> B) Marge.
+                           </label>  <br />
+                           <label class="radio">
+                               <input type="radio" name="questao8" value="c" /> C) Bart.
+                           </label>   <br />
+                           <label class="radio">
+                            <input type="radio" name="questao8" value="d" /> D) Lisa.
+                           </label>
+
+                       </section>
+                           <br/><br/>
+                           <div id="button">
+                           	<button type="submit">Resultado</button>
+                           </div>
+                           
+                      </fieldset>     
+                   </form><!--/fim formulario -->
+        </div> <!--/fim area-principal -->
+
+           <div style="clear: both;"></div>
+
+            <footer>
+                <p> &copy; 2020 - Rennan Galvão</p>
+
+            </footer>
+           
+       
+    </body>
+</html>
